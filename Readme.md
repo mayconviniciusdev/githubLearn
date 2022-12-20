@@ -1,0 +1,1 @@
+Esse é um projeto com o intuito de aprender a mexer com Git e Github.
