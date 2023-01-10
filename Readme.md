@@ -29,7 +29,7 @@ Para podermos fazer a migração do repositório local ao remoto precisamos gera
 * [Aqui está o guia para gerar sua chave SSH](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 * Mas basicamente é acessar o Git Bash e inserir o comando: `sshkeygen -t rsa 4096 -C seuEmail@exemplo.com` (Seu e-mail do GitHub). 
 
-Seu retorno será: 
+Seu retorno deverá ser: 
 * `Generating public/private ALGORITHM key pair`, de enter.
 * `Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]`, de enter.
 * `Enter passphrase (empty for no passphrase): [Type a passphrase]`, de enter (Crie ou não crie uma senha).
@@ -45,20 +45,9 @@ Adicionando sua chave SSH à sua conta do GitHub:
 * E por último. Se solicitado, confirme acesso à sua conta em GitHub, após isso já estamos prontos para usar o Git juntamente com o GitHub.
 
 ## Iniciando projetos com o Git.
+Abra seu projeto pelo terminal do Git Bash, ou acesse o terminal dentro do seu editor de código. Com essa última opção é interessante utilizar a extensão "Terminal", caso use o VS CODE, pois é possível acessar de forma rápida o terminal.
 
-Antes de apresentar os comandos a você irei explicar os conceitos "master" e "branch". 
-* Master/main é a branch principal do projeto.
-* Branch é alguma ramificação (versão) do projeto principal.
-* Após entender isso, abra seu projeto pelo terminal do Git Bash, ou acesse o terminal dentro do seu editor de código. Com essa última opção é interessante utilizar a extensão "Terminal", caso use o VS CODE.
-
-<img src="images/terminal.png">
-
-* Com ela instalada é possível acessar de forma rápida o terminal clicando nesse icon, que fica na parte inferior do VS CODE:
-
-<img src="images/terminalAcesso.png">
-
-## Comandos do Git:
-Abaixo disponibilizo os comandos mais usado: 
+Abaixo disponibilizo os comandos do Git mais usado: 
 * `git init` - Para iniciar um repositório e é possível dar inicio, seja ele um projeto vazio ou já desenvolvido.
 * `git status` - Para verificar se alguma alteração.
 * `git log` - Para ver todos os commits já feito.
@@ -111,6 +100,6 @@ Abaixo disponibilizo os comandos mais usado:
 ## Finalização.
 Bom, chegamos ao final desse guia prático e espero que ele tenha ajudado você. Caso ficou alguma dúvida, entre em contato comigo pelo [Instagram](https://www.instagram.com/mayconviniciusdev/).
 
-Relembrando que existem diversas outras funcionalidade do Git e GitHub, porém com tudo isso apresentado você já conseguirá desenvolver um projeto com essa tecnologia. 
+Relembrando que existem diversas outras funcionalidade do Git e GitHub, porém com tudo isso apresentado você já conseguirá fazer versionamentos dos seus projetos.
 
-Em breve irei adicionar uma seção de como usar na prática. Então, até mais.
+Em breve irei adicionar uma seção de como utilizar na prática. Então, até mais.
